@@ -1,0 +1,46 @@
+#section1{
+    background : url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mont_St_Michel_3%2C_Brittany%2C_France_-_July_2011.jpg/1200px-Mont_St_Michel_3%2C_Brittany%2C_France_-_July_2011.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2{
+    background : url("https://www.travelvaccinationclinic.com.au/wp-content/uploads/2018/02/china.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3{
+    background : url("https://static1.cietours.com/images/2018IrelandOnlyTOC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+#section4{
+    background : url("https://img.wennermedia.com/article-leads-horizontal/rs-michael-phelps-7ffe00e9-e0c3-4778-bf12-8559af505182.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section5{
+    background : url("https://cbsla.files.wordpress.com/2017/08/shutterstock_568376491.jpg?w=640&h=360&crop=1");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6{
+    background : url("http://images.performgroup.com/di/library/omnisport/a8/cb/mcilroy-rory-usnews-getty-ftr_1dn1g0sxry9kq1ddbisy5f1l1e.jpg?t=-1356195411&w=960&quality=70");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    text-align: left;
+    color: Black;
+}
