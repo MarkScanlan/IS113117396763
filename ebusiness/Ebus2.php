@@ -115,7 +115,7 @@ input[type=password] {
             
         </div>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script type="text/javascript" src="Ebus2_Validator.js"></script>
         
         <?php
         //Set session variables

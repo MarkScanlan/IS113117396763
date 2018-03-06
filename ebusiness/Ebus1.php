@@ -75,13 +75,13 @@ li a:hover {
             background-color: #42d7f4;
                            border-radius: 2px;
                            border:none;
-                           color: black;
+                           color: blue;
                            padding: 5px;
                            cursor: pointer;
        }
        button:hover {
            background-color:#d966ff;
-           color:White;
+           color:black;
        }
        
         </style>
