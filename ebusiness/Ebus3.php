@@ -5,11 +5,11 @@ $email =$_REQUEST['email'];
 ?>
 	<html>
 	    <head>
-	        <title>RECEIPT</title>
+	        <title> Receipt </title>
 	        <!--Adding style-->
 	             <style type = "text/css">
 h1 {
-    color: Blue;
+    color: red;
     font-family: courier;
     font-size: 250%;
     top:10em;
@@ -26,14 +26,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    background-color: black;
     font-size: 150%;
 }
 li {
     display: inline;
 }
 ul li a:hover{
-  color:black;
+  color:red;
   background:blue;
 }
 
@@ -59,16 +59,16 @@ font-size:22px;
 	    </head>
 	    <body>
 	        <!--Adding a heading-->
-	       <h1 style="background-color:DodgerBlue;"  class="mainheading" > Your purchase reciept </h1>
+	       <h1 style="background-color: Black;"  class="mainheading" > Your purchase reciept </h1>
         
         
      <!--Adding the nav bar-->
  <ul>
-  <li><a href="homepage.html">Home</a></li>
-  <li><a href="Sports.html">Interests</a></li>
-  <li><a href="cv_page1.html">Curriculum Vitae</a></li>
-   <li><a href="myproduct.html">EBusiness</a></li>
-  <li> <a href="https://github.com/MarkScanlan"> My Github </a></li>
+  <li><a  style="color:red;" href="../homepage.html"> Home</a></li>
+  <li><a  style="color:red;" href="../sports.html"> Interests</a></li>
+  <li><a  style="color:red;" href="../cv_page1.html"> Curriculum Vitae</a></li>
+  <li><a  style="color:red;" href ="../Interests/cloudservicing.html">Cloud Servicing</a></li>
+  <li> <a style="color:red;" href="https://github.com/MarkScanlan"> My Github </a></li>
 
   
 </ul>
@@ -98,17 +98,32 @@ font-size:22px;
         
 
 <br/>
-<p><img src = "https://az616578.vo.msecnd.net/files/2017/02/21/636232341000937145-2058526602_technology.jpg"  style="width:70px;height:70px;"></p>
+<p><img src = "https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/20842236_1940362326176199_551552686338685606_n.png?oh=2f71dd65968d1dea15acb50538338693&oe=5B025B3F"  style="width:70px;height:70px;"></p>
 <br/>
 <br/>
 <p> Thank you for choosing Looptown Ltd.
 <br/>
 <br/>
-<a href = "homepage.html" class = "btn btn-dark">  Back To Home.</a>
+
 
 </p>
+
+    <footer>
+    <br>
+  <p>Find me on Social Media:</p> &copy;
+ <!-- Adding icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Adding Icons -->
+<a href="https://www.facebook.com/LooptownMusic/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/looptownmusic/" class="fa fa-instagram"></a>
+
+  
+  
+            </p>
+</footer>
         </div>
         
      
-	    </body>
-	</html>
+	   </body>
+</html>

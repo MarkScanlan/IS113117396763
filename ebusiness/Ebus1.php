@@ -11,20 +11,20 @@
             padding:0;
             width:100%;
             overflow:hidden;
-            background-color:#42d7f4 ;
+            background-color: black;
 }
 li{
     float: left;
 }
 li a{
     display: block;
-    color:black;
+    color:red;
     text-align:center;
     padding: 16px 18px;
     text-decoration: none;
 }
 li a:hover {
-    background-color:#d966ff ;
+    background-color:blue;
 }
         
         #maincontent {
@@ -50,6 +50,9 @@ li a:hover {
             left:9em;
             position: absolute;
         }
+        #button3 a {
+            color: red;
+        }
         h2 {
             text-align:center;
         }
@@ -59,7 +62,7 @@ li a:hover {
                            text-align:center;
 }
        button[type=submit]:disabled {
-                           background-color: grey;
+                           background-color: red;
                            border-radius: 2px;
                            border:none;
                            color: black;
@@ -68,33 +71,31 @@ li a:hover {
                            
        }
        button[type=submit]:enabled {
-                          background-color:#80ffd4;
-                          color: White;
+                          background-color:red;
+                          color: black;
        }
        button {
-            background-color: #42d7f4;
+            background-color: black;
                            border-radius: 2px;
                            border:none;
-                           color: blue;
+                           color: red;
                            padding: 5px;
                            cursor: pointer;
        }
        button:hover {
-           background-color:#d966ff;
-           color:black;
+           background-color:blue;
+           color:red;
        }
        
         </style>
     </head>
     <body>
-        <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
+        
        <ul>
-        <li><a class = "active" href = "#home">Home</a></li>
-        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
-        <li><a href ="Interests/sports.html">Interests</a></li>
-        <li><a href ="Interests/travel.html">Travel</a></li>
-        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
-        <li><a href = "eBusiness/Ebus1.php">eBusiness</a></li>
+        <li><a href = "../homepage.html">Home</a></li>
+        <li><a href= "../cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href ="../Interests/sports.html">Interests</a></li>
+        <li><a href ="../Interests/cloudservicing.html">Cloud Servicing</a></li>
         </ul>
     
         <h2>Select A Product</h2>

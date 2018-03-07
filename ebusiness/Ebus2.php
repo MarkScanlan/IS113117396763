@@ -9,7 +9,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
+         
          <style type = "text/css">
              #content {
                   top:8em;
@@ -25,48 +25,48 @@ session_start();
             padding:0;
             width:100%;
             overflow:hidden;
-            background-color:#42d7f4 ;
+            background-color:black;
 }
 li{
     float: left;
 }
 li a{
     display: block;
-    color:black;
+    color:red;
     text-align:center;
     padding: 16px 18px;
     text-decoration: none;
 }
 li a:hover {
-    background-color:#d966ff ;
+    background-color: blue;
 }
 .active {
-    background-color: #d966ff;
+    background-color: blue;
 }
 input[type=text] {
-                           border: 2px solid blue;
+                           border: 2px solid red;
                            border-radius: 4px;
                            text-align:center;
 }
 input[type=password] {
-                           border: 2px solid blue;
+                           border: 2px solid red;
                            border-radius: 4px;
                            text-align:center;
 }
  button[type=submit]:disabled {
-                           background-color: grey;
+                           background-color: black;
                            border-radius: 2px;
                            border:none;
-                           color: black;
+                           color: red;
                            padding: 5px;
                            cursor: pointer;
                            
        }
         button[type=submit]:enabled {
-                           background-color: #42d7f4;
+                           background-color: black;
                            border-radius: 2px;
                            border:none;
-                           color: black;
+                           color: red;
                            padding: 5px;
                            cursor: pointer;
                            
@@ -80,11 +80,9 @@ input[type=password] {
     <body>
         <ul>
         <li><a href ="../homepage.html">Home</a></li>
-        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
-        <li><a href ="Interests/sports.html">Interests</a></li>
-        <li><a href ="Interests/travel.html">Travel</a></li>
-        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
-        <li><a class = "active" href = "eBusiness/Ebus2.php">eBusiness</a></li>
+        <li><a href= "../cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href ="../Interests/sports.html">Interests</a></li>
+        <li><a href ="../Interests/cloudservicing.html">Cloud Servicing</a></li>
         </ul>
         <h2>Please enter your payment details</h2>
         <div id ="content">
@@ -106,12 +104,12 @@ input[type=password] {
                     <br>
                    &nbsp;<input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     <br><br><br>
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type="submit" id="btnPurchase" disabled> Proceed with Purchase</button>
               
             </form>
             
             <br>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()"> Validate</button>
             
         </div>
         

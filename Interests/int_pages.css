@@ -45,6 +45,34 @@
     color: Black;
 }
 
+#section7{
+    background : url("https://static.macquarie.com/dafiles/Internet/mgl/global/shared/corporate/advisory-capital-markets/telecommunications-media-entertainment-and-technology/images/Hero%20Banner%20TMET%201200x540.jpg?v=6");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+     
+}
+
+#section8{
+    background : url("https://www.dentons.com/-/media/images/website/background-images/practices/venture-technology/venture-tech-update.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section9{
+    background : url("https://citelighter-cards.s3.amazonaws.com/p17d98f5st15qd1tsv1m9c1sbu11uo0_64674.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: Center;
+}
+
+.section{
+    text-align: left;
+    color: Black;
+}
+
 #link_button{
     margin: 2em;
     padding: 2em;
